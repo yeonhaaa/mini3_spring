@@ -1,4 +1,4 @@
-package repository;
+package com.example.mini3_spring.repository;
 
 import com.example.mini3_spring.model.User;
 
