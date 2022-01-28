@@ -24,7 +24,7 @@ public class UserController {
         // System.out.println(userRepository.findById(1L));        // 아이디가 1인 값 확인
         
         if(dbUser != null){
-            System.out.println("회원가입 실패");
+            System.out.println("회원가입 실패!!!");
         }else{
             System.out.println(user);   // 가져오는 값
             userRepository.save(user);
