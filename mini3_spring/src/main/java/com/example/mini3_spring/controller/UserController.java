@@ -28,7 +28,7 @@ public class UserController {
         }else{
             System.out.println(user);   // 가져오는 값
             userRepository.save(user);
-            System.out.println("회원가입 성공");
+            System.out.println("회원가입 성공!!!!");
         }
         return "signup";
     }
